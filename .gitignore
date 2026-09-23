@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep empty data directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained model artefacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Logs / temporary files
+*.log
+*.tmp
