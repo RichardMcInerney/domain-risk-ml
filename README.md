@@ -169,6 +169,8 @@ python -m pytest -q
 
 ## Project Structure
 
+```text
+
 domain_ml_model/
 |-- analysis/
 |   `-- eda.py
@@ -200,6 +202,8 @@ domain_ml_model/
 |-- .gitignore
 |-- README.md
 `-- requirements.txt
+
+```
 
 The project separates the ML lifecycle into explicit stages:
 
