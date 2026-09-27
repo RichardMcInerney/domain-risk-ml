@@ -1,0 +1,13 @@
+source,feature,count,mean,std,min,q25,median,q75,max
+tranco,hostname_length,3075,13.7366,4.3487,5.0,11.0,13.0,16.0,35.0
+tranco,digit_count,3075,0.2345,0.8118,0.0,0.0,0.0,0.0,8.0
+tranco,digit_ratio,3075,0.0196,0.0692,0.0,0.0,0.0,0.0,0.6364
+tranco,hyphen_count,3075,0.1093,0.3702,0.0,0.0,0.0,0.0,6.0
+tranco,hostname_entropy,3075,3.2296,0.3413,1.6577,3.0221,3.2516,3.4842,4.1592
+tranco,alphabetic_ratio,3075,0.886,0.0795,0.25,0.875,0.9091,0.9286,0.9714
+urlhaus,hostname_length,3075,20.3525,6.402,6.0,16.0,20.0,23.0,51.0
+urlhaus,digit_count,3075,0.7512,1.4946,0.0,0.0,0.0,1.0,21.0
+urlhaus,digit_ratio,3075,0.0351,0.0695,0.0,0.0,0.0,0.0494,0.6923
+urlhaus,hyphen_count,3075,0.2901,0.6909,0.0,0.0,0.0,0.0,4.0
+urlhaus,hostname_entropy,3075,3.6233,0.3366,2.1556,3.4251,3.6635,3.8522,4.4613
+urlhaus,alphabetic_ratio,3075,0.867,0.0756,0.2222,0.8333,0.8889,0.913,0.9714

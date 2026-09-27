@@ -1,0 +1,7 @@
+source,characteristic,count,percentage
+tranco,Contains digit,310,10.08
+tranco,Contains hyphen,295,9.59
+tranco,Contains subdomain,0,0.0
+urlhaus,Contains digit,915,29.76
+urlhaus,Contains hyphen,561,18.24
+urlhaus,Contains subdomain,1886,61.33

@@ -1,0 +1,40 @@
+{
+  "model_name": "scaled_logistic_v0_1",
+  "feature_columns": [
+    "hostname_length",
+    "digit_count",
+    "digit_ratio",
+    "hyphen_count",
+    "hostname_entropy",
+    "alphabetic_ratio"
+  ],
+  "training": {
+    "training_observations": 4890,
+    "random_seed": 42,
+    "preprocessing": "StandardScaler",
+    "classifier": "LogisticRegression",
+    "max_iter": 1000
+  },
+  "validation": {
+    "method": "5-fold StratifiedGroupKFold by registrable_domain",
+    "mean_accuracy": 0.777914,
+    "mean_precision": 0.792926,
+    "mean_recall": 0.749186,
+    "mean_f1": 0.770104,
+    "mean_roc_auc": 0.846411
+  },
+  "held_out_evaluation": {
+    "test_observations": 1260,
+    "accuracy": 0.812698,
+    "precision": 0.823622,
+    "recall": 0.808346,
+    "f1": 0.815913,
+    "roc_auc": 0.888246,
+    "status": "used",
+    "note": "This test partition has been used for final v0.1 evaluation and must not be treated as untouched for future model development."
+  },
+    "artifact": {
+    "filename": "scaled_logistic_v0_1.joblib",
+    "sha256": "558fb743856aa8d8756eda2944a4eadb75aa0d0f5281f9af6c9f0709d0e4f067"
+  }
+}

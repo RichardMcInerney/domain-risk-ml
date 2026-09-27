@@ -1,0 +1,2 @@
+model,evaluation_status,test_observations,accuracy,precision,recall,f1,roc_auc
+scaled_logistic_v0_1,used_held_out_test,1260,0.812698,0.823622,0.808346,0.815913,0.888246

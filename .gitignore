@@ -28,7 +28,7 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Trained model artefacts
-models/*.joblib
+# Frozen v0.1 model artifact is intentionally version-controlled.
 models/*.pkl
 models/*.pickle
 

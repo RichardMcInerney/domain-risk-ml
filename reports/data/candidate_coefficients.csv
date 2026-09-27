@@ -1,0 +1,7 @@
+feature,standardized_coefficient,absolute_coefficient
+digit_ratio,-2.24285,2.24285
+alphabetic_ratio,-1.897538,1.897538
+hostname_length,1.342238,1.342238
+digit_count,0.824443,0.824443
+hostname_entropy,0.604341,0.604341
+hyphen_count,-0.50154,0.50154
