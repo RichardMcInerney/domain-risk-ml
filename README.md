@@ -24,8 +24,8 @@ The held-out test set has been used for the completed v0.1 final evaluation and 
 
 The v0.1 dataset combines two public sources:
 
-- **URLhaus** â€” hostnames extracted from malware-associated URL observations.
-- **Tranco** â€” established domains drawn from the Tranco top-domain ranking.
+- **URLhaus** — hostnames extracted from malware-associated URL observations.
+- **Tranco** — established domains drawn from the Tranco top-domain ranking.
 
 The prepared baseline contains 6,150 observations, balanced equally between 3,075 URLhaus observations and 3,075 Tranco observations.
 
@@ -169,36 +169,37 @@ python -m pytest -q
 
 ## Project Structure
 
-```text
 domain_ml_model/
-â”œâ”€â”€ analysis/
-â”‚   â””â”€â”€ eda.py
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ processed/
-â”‚   â””â”€â”€ raw/
-â”œâ”€â”€ docs/
-â”‚   â”œâ”€â”€ BUILD_LOG.md
-â”‚   â”œâ”€â”€ DATASET_PROVENANCE.md
-â”‚   â””â”€â”€ MODEL_SCOPE.md
-â”œâ”€â”€ models/
-â”‚   â””â”€â”€ scaled_logistic_v0_1.joblib
-â”œâ”€â”€ reports/
-â”‚   â”œâ”€â”€ data/
-â”‚   â””â”€â”€ figures/
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ build_features.py
-â”‚   â”œâ”€â”€ download_data.py
-â”‚   â”œâ”€â”€ evaluate_candidate.py
-â”‚   â”œâ”€â”€ features.py
-â”‚   â”œâ”€â”€ predict_domain.py
-â”‚   â”œâ”€â”€ prepare_data.py
-â”‚   â”œâ”€â”€ split_data.py
-â”‚   â””â”€â”€ train_baseline.py
-â”œâ”€â”€ tests/
-â”‚   â””â”€â”€ test_features.py
-â”œâ”€â”€ README.md
-â””â”€â”€ requirements.txt
-```
+|-- analysis/
+|   `-- eda.py
+|-- data/
+|   |-- processed/
+|   `-- raw/
+|-- docs/
+|   |-- BUILD_LOG.md
+|   |-- DATASET_PROVENANCE.md
+|   `-- MODEL_SCOPE.md
+|-- models/
+|   |-- scaled_logistic_v0_1.joblib
+|   `-- scaled_logistic_v0_1_metadata.json
+|-- reports/
+|   |-- data/
+|   `-- figures/
+|-- src/
+|   |-- build_features.py
+|   |-- download_data.py
+|   |-- evaluate_candidate.py
+|   |-- features.py
+|   |-- predict_domain.py
+|   |-- prepare_data.py
+|   |-- split_data.py
+|   `-- train_baseline.py
+|-- tests/
+|   `-- test_features.py
+|-- .env.example
+|-- .gitignore
+|-- README.md
+`-- requirements.txt
 
 The project separates the ML lifecycle into explicit stages:
 
