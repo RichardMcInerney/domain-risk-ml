@@ -4,7 +4,7 @@ A reproducible machine-learning project for analysing lexical characteristics as
 
 The project compares hostname observations derived from URLhaus threat-intelligence data with established domains from the Tranco ranking. It uses engineered lexical features and group-aware model evaluation to investigate whether hostname structure contains useful discriminatory signal.
 
-The frozen v0.1 candidate is an interpretable scaled logistic-regression classifier. Its output represents a **URLhaus-class probability within this dataset and modelling framework**. It must not be interpreted as the probability that an arbitrary domain is malicious.
+The frozen v0.1 candidate is an interpretable scaled logistic-regression classifier. Its output represents a URLhaus-class probability within this dataset and modelling framework. It must not be interpreted as the probability that an arbitrary domain is malicious.
 
 ## Project Status
 
