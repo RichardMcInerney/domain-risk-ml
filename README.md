@@ -102,6 +102,20 @@ The Power BI report is available at:
 
 `powerbi/Zaxonite_Domain_Risk_Analysis_v0_1.pbix`
 
+### Dashboard Preview
+
+#### Domain Risk Overview
+
+![Domain Risk Overview](docs/images/domain_risk_overview.png)
+
+#### Feature Analysis
+
+![Feature Analysis](docs/images/feature_analysis.png)
+
+#### Model Performance
+
+![Model Performance](docs/images/model_performance.png)
+
 The dashboard is intended to demonstrate the complete analytical workflow from data preparation and exploratory analysis through model evaluation, reporting and governance. It preserves the same model boundary as the underlying Python project: model output is supporting analytical evidence and not an automated malicious-domain verdict.
 
 ## Inference
